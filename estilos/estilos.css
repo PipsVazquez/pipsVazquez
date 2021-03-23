@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.iconos-redes-sociales{
+    background-color:  #10505c;
+    height: 50px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .iconos-redes-sociales{
+   justify-items: center;
+}
+
+.iconos-redes-sociales a{
+    text-decoration: none;
+}
+
+.iconos-redes-sociales span{
+    color:whitesmoke;
+}
+nav{
+    background-color: rgb(203, 255, 246);
+    height: 90px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .nav-imagen-logo img{
+    width:20%;
+}
+
+nav .nav-menu ul{
+    display: flex;
+}
+
+nav .nav-menu li{
+    margin-right: 15px;
+    list-style: none;
+    
+}
+
+nav .nav-menu a{
+    text-decoration: none;
+    color: #10505c;
+    font-family: 'Bebas Neue';
+}
+
+main{
+    /* border: 3px solid red; */
+    height: 600px;
+    background-image: url("../images/robot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke; 
+}
+
+
+main .principal-texto{
+    text-align: center;
+    z-index: 1;
+    
+}
+
+main .principal-texto h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    margin:0;
+} 
+
+.conoceme{
+    /* border:5px solid red; */
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conoceme .conoceme-informacion{
+    width:800px;
+}
+
+.conoceme .conoceme-informacion h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.conoceme .conoceme-boton{
+    display: flex;
+    justify-content: center;
+}
+
+.conoceme .conoceme-boton button{
+    height: 50px;
+    width: 200px;
+    background-color: #10505c;
+    border: none;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-weight: bolder;
+    cursor:pointer;
+}
+.conoceme img{
+    height: 350px;
+    border-radius: 50%;
+}
+
+.proyectos {
+    height:800px;
+    /* border:3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos .card-proyectos{
+    width: 400px;
+    height: 75%;
+    /* border: 2px solid purple; */
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.proyectos .card-proyectos .img-proyectos img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.proyectos .card-proyectos h2{
+    text-align: center;
+}
+
+.proyectos .card-proyectos button{
+    text-align: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    width: 75%;
+    background-color: #10505c;
+    border: none;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-weight: bolder;
+    cursor:pointer;
+}
+
+
+
+
+
+footer{
+    background-color: #10505c;
+    height: 40px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
